@@ -6,7 +6,8 @@ Internal reporting tool that will use information from the database to discover 
 
 ## Prerequisites
 You have installed the following programmes
-```Python 3.5.2
+```
+Python 3.5.2
 psycopg2 2.7.3.2
 PostgreSQL 9.5.10
 ```
