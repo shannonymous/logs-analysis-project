@@ -1,4 +1,4 @@
-# Logs analysis project for Udacity Fullstack nanodegree
+#!/usr/bin/env python3
 import psycopg2
 
 DBNAME = "news"
