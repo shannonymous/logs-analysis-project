@@ -1,6 +1,7 @@
 # logs-analysis-project
 ## by Shannon Tjang
-Internal reporting tool that will use information from the database to discover what kind of articles the site's readers like. Project in fulfillment of the [Udacity Full Stack Developer Nanodegree](https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004).
+
+Internal reporting tool that leverages database information to figure out what kind of articles the site's readers like. Project in fulfillment of the [Udacity Full Stack Developer Nanodegree](https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004).
 
 
 
@@ -11,7 +12,7 @@ Python
 psycopg2 2.7.3.2
 PostgreSQL 9.5.10
 ```
-Generally any recent version will do, as Python makes every attempt to maintain backwards compatibility.
+Generally any recent version of Python will do, as Python makes every attempt to maintain backwards compatibility.
 
 
 ## Contents
@@ -57,7 +58,7 @@ python logsanalysis.py
 ```
 
 ## Output
-Your output should look something like the following:
+Your output should return the same results as in the `output.txt` file.
 
 
 
