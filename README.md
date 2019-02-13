@@ -7,10 +7,11 @@ Internal reporting tool that will use information from the database to discover 
 ## Prerequisites
 You have installed the following programs
 ```
-Python 3.5.2
+Python
 psycopg2 2.7.3.2
 PostgreSQL 9.5.10
 ```
+Generally any recent version will do, as Python makes every attempt to maintain backwards compatibility.
 
 
 ## Contents
@@ -23,7 +24,8 @@ PostgreSQL 9.5.10
 
 # Instructions
 
-1. Open up your preferred command prompt [need to change the wording here]
+Launch your preferred Linux-based Shell terminal.
+
 ## Initialize your Virtual machine
 
 ```
