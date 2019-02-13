@@ -15,9 +15,6 @@ def connect():
     else:
         return c
 
-print("")
-print('Udacity Logs Analysis Project Answers')
-print("====================================================")
 
 #Question 1: What are the most popular three articles of all time?
 def three_most_popular_articles(cursor):
@@ -99,6 +96,9 @@ def more_than_1_pc_error(cursor):
 
 if __name__ == "__main__":
     cursor = connect()
+    print("")
+    print('Udacity Logs Analysis Project Answers')
+    print("====================================================")
     if cursor:
         three_most_popular_articles(cursor)
         author_by_popularity(cursor)
